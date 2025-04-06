@@ -1,0 +1,46 @@
+body {
+  background-image: url(../imgs/prayers-bg.jpg);
+  background-position-x: right;
+  background-size: 100%;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-color: rgb(215, 215, 215);
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center;
+  margin-top: 30%;
+  font-size: 64px;
+  /* border: dashed 5px rgb(0, 128, 255); */
+}
+h2 {
+  color: green;
+  font-size: 48px;
+  /* border: dashed 5px rgb(255, 0, 119); */
+}
+
+p {
+  color: black;
+  margin: 10px 50px; /* top right bottom left */
+  font-size: xx-large;
+  /* border: dashed 5px rgb(255, 247, 0); */
+}
+a {
+  font-size: xx-large;
+  /* border: dashed 5px turquoise; */
+}
+#linkdiv {
+  margin-top: 5%;
+  /* border: dashed 5px red; */
+  padding: 5%;
+}
+img {
+  width: 50%;
+  /* margin-top: 5%; */
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: dashed 5px rgb(0, 255, 26); */
+  padding: 5%;
+}
