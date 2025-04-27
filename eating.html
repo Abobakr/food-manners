@@ -6,10 +6,11 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> في الاسلام:آداب الطعام</title>
       <link rel="stylesheet" href="style.css">
+      <script src="code.js"></script>
       <link rel="icon" href="imgs/fav.png">
 </head>
 
-<body>
+<body class="eating-page">
       <h1 title="عنوان الدرس">آداب الطعام</h1>
       <h2>آداب ما قبل الأكل</h2>
       <p>غسل اليدين قبل الطعام: ينبغي غسل اليدين قبل الطعام، ليأكل بها وهما نظيفتان، لئلا يضر
@@ -175,12 +176,10 @@
       <a href="tel:+90 0505 890 76 57">تواصل معنا عبر الهاتف </a>
 
       <hr>
-      <!-- <hr> -->
-      <button id="specialBtn">Test style button</button>
-      <button onclick="display_hello_message()">تعلم اذكار الصلاة</button>
-      <button onclick="display_my_message('انت في نفس الصفحة')">تعلم اداب الطعام </button>
-      <button onclick="alert('هذه الصفحة هي وظيفة')">تعلم اذكار الصباح والمساء </button>
-      <script src="script.js"></script>
+      <button class="BtnClass" onclick="openLocalWebpage('prayers.html')">تعلم اذكار الصلاة</button>
+      <button class="BtnClass" onclick="display_my_message('انت في نفس الصفحة')">تعلم اداب الطعام </button>
+      <button class="BtnClass" onclick="openLocalWebpage('morning-evening.html')">تعلم اذكار الصباح والمساء </button>
+      <button class="BtnClass" onclick="testReaderOnThisWebpage('eating.html')">اختبر معلوماتك</button>
 </body>
 
 </html>

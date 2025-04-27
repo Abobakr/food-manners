@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework PAGE</title>
-
-    <link rel="stylesheet" href="../hoca/css/style-homework.css">
-
+    <link rel="icon" href="imgs/fav.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
 </head>
 
-<body>
+<body class="prayers-page">
     <h1>اذكار الصلاة</h1>
     <p>
         دعاء الاستفتاح:
@@ -59,8 +59,13 @@
             الصلاة </a>
     </div>
 
-    <img src="imgs-hoca/azkar.jpg" alt="azkar image" title="هذه صورة عن ">
+    <!-- <img src="imgs/azkar.jpg" alt="azkar image" title="هذه صورة عن أذكار الصلاة" /> -->
 
+    <hr>
+    <button class="BtnClass" onclick="display_my_message('انت في نفس الصفحة')">تعلم اذكار الصلاة</button>
+    <button class="BtnClass" onclick=" openLocalWebpage('eating.html')">تعلم اداب الطعام </button>
+    <button class="BtnClass" onclick="openLocalWebpage('morning-evening.html')">تعلم اذكار الصباح والمساء </button>
+    <button class="BtnClass" onclick="testReaderOnThisWebpage('prayers.html')">اختبر معلوماتك</button>
 </body>
 
 </html>
