@@ -1,3 +1,3 @@
-# food-manners
-This is a webpage for Islamic test manners
-we used a transparent background image and learned about padding and margins.
+# islamic-manners
+This is a web project on Islamic manners
+We started it as a simple webpage to learn about transparent background images, paddings, and margins.
